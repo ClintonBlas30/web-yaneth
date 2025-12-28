@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Sitio Web</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="animated-bg" style="font-family: 'Montserrat', 'Inter', Arial, sans-serif;">
+    <!-- ================= ENCABEZADO PRINCIPAL ================= -->
+    <header class="header glass-effect">
+      <div class="container header-flex">
+        <div class="header-identidad">
+          <img src="img/logotipo.png" alt="Logotipo Yaneth" class="logo" />
+          <div>
+            <h1 class="nombre glow-text">PÁGINA INFORMATIVA</h1>
+            <p class="carrera" style="margin-top:0.3em;">MARTINEZ SUAREZ, Yaneth Liz</p>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ================= CONTENIDO PRINCIPAL ================= -->
+    <main>
+      <!-- ========== SECCIÓN INICIO / HERO ========== -->
+      <section id="inicio" class="seccion-inicio">
+        <div class="container-inicio">
+          <div class="logo-inicio pulse-glow float-shape" style="width:230px;height:230px;margin:0 auto 2em auto;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#fff;box-shadow:0 0 40px #2563eb44;">
+            <img src="img/LOGO_FINAL.png" alt="Logo institucional" style="width:88%;height:88%;object-fit:contain;display:block;" />
+          </div>
+          <h1 class="glow-text" style="text-align:center;font-size:2.8rem;font-weight:800;letter-spacing:-1px;margin-bottom:0.5em;">MARTINEZ SUAREZ, Yaneth Liz</h1>
+          <h2 class="gradient-text" style="text-align:center;font-size:1.6rem;font-weight:600;margin-bottom:1em;">Egresada de Computación e Informática</h2>
+          <p class="hero-bio" style="text-align:center;max-width:700px;margin:0 auto 1.5em auto;font-size:1.15rem;line-height:1.7;color:#222;">Apasionada por la tecnología y el desarrollo de soluciones digitales, con enfoque en desarrollo web y optimización de procesos mediante herramientas informáticas. Comprometida con el aprendizaje continuo y la creación de soluciones eficientes y orientadas a resultados.</p>
+        </div>
+      </section>
+
+      <!-- ========== SECCIÓN SOBRE MÍ ========== -->
+      <section id="sobre-mi" class="seccion-sobremi">
+        <div class="container-sobremi">
+          <h2 class="gradient-text" style="text-align:center;font-size:2.1rem;font-weight:700;margin-bottom:1.2em;">Sobre Mí</h2>
+          <div class="sobre-mi-flex" style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:2.5em;max-width:900px;margin:0 auto;">
+            <img src="img/Foto_Yaneth.jpeg" alt="Foto de Yaneth Liz" class="sobre-mi-foto float-shape" style="width:200px;height:200px;border-radius:32px;box-shadow:0 0 32px #2563eb44;margin-bottom:0.7em;object-fit:cover;" />
+            <div style="flex:1;">
+              <p style="font-size:1.18rem;text-align:justify;line-height:1.8;margin-bottom:1.3em;">¡Hola! Soy Yaneth Liz Martínez Suárez, egresada de Computación e Informática. Me considero responsable, creativa y con gran interés en el desarrollo de soluciones tecnológicas con impacto positivo. Mi objetivo es contribuir con mis conocimientos y habilidades en proyectos innovadores y de alto impacto.</p>
+              <div class="contacto-tarjeta-sobremi" style="margin-top:1em;">
+                <div class="contacto-card">
+                  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" class="icon-contacto">
+                  <a href="mailto:yaneth.ejemplo@email.com">yanemisucu.26@gmail.com</a>
+                </div>
+                <div class="contacto-card">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="icon-contacto">
+                  <a href="https://wa.me/51901790281" target="_blank">901 790 281</a>
+                </div>
+                <div class="contacto-card">
+                  <span class="icon-contacto" style="display:inline-flex;align-items:center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6.075-9 13-9 13S3 16.075 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </span>
+                  <span>San Luis, Ancash, Perú</span>
+                </div>
+                <div class="contacto-card">
+                  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" class="icon-contacto">
+                  <a href="https://www.facebook.com/yaneth.martinezsuarez.80?locale=es_LA" target="_blank">yanethlizmartinez</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+      <a href="https://wa.me/51901790281" class="whatsapp-float" target="_blank" title="Contactar por WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:32px;height:32px;filter:drop-shadow(0 0 2px #fff);" />
+      </a>
+
+      <!-- ========== SECCIÓN SERVICIOS ========== -->
+      <section id="servicios" class="seccion-servicios">
+        <div class="container-servicios">
+          <h2 class="gradient-text" style="text-align:center;font-size:2.1rem;font-weight:700;margin-bottom:1.2em;">Servicios</h2>
+          <div class="servicios-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2em;max-width:1100px;margin:0 auto;">
+            <div class="service-card scale-in delay-1" style="background:linear-gradient(135deg,#e0e7ff,#f3f4f6);padding:2em 1.5em;border-radius:1.5em;box-shadow:0 10px 40px #2563eb22;display:flex;flex-direction:column;align-items:center;">
+              <div class="servicio-icon" style="font-size:2.5rem;margin-bottom:0.7em;">💻</div>
+              <h3 style="font-size:1.25rem;font-weight:600;margin-bottom:0.5em;">Desarrollo Web</h3>
+              <p style="text-align:center;color:#222;">Aplicaciones web modernas y responsivas.</p>
+            </div>
+            <div class="service-card scale-in delay-2" style="background:linear-gradient(135deg,#e0e7ff,#f3f4f6);padding:2em 1.5em;border-radius:1.5em;box-shadow:0 10px 40px #2563eb22;display:flex;flex-direction:column;align-items:center;">
+              <div class="servicio-icon" style="font-size:2.5rem;margin-bottom:0.7em;">📱</div>
+              <h3 style="font-size:1.25rem;font-weight:600;margin-bottom:0.5em;">Apps Móviles</h3>
+              <p style="text-align:center;color:#222;">Soluciones móviles nativas y multiplataforma.</p>
+            </div>
+            <div class="service-card scale-in delay-3" style="background:linear-gradient(135deg,#e0e7ff,#f3f4f6);padding:2em 1.5em;border-radius:1.5em;box-shadow:0 10px 40px #2563eb22;display:flex;flex-direction:column;align-items:center;">
+              <div class="servicio-icon" style="font-size:2.5rem;margin-bottom:0.7em;">🎨</div>
+              <h3 style="font-size:1.25rem;font-weight:600;margin-bottom:0.5em;">UI/UX Design</h3>
+              <p style="text-align:center;color:#222;">Diseños intuitivos y atractivos.</p>
+            </div>
+            <div class="service-card scale-in delay-4" style="background:linear-gradient(135deg,#e0e7ff,#f3f4f6);padding:2em 1.5em;border-radius:1.5em;box-shadow:0 10px 40px #2563eb22;display:flex;flex-direction:column;align-items:center;">
+              <div class="servicio-icon" style="font-size:2.5rem;margin-bottom:0.7em;">☁️</div>
+              <h3 style="font-size:1.25rem;font-weight:600;margin-bottom:0.5em;">Cloud Solutions</h3>
+              <p style="text-align:center;color:#222;">Arquitectura y despliegue en la nube.</p>
+            </div>
+            <div class="service-card scale-in delay-5" style="background:linear-gradient(135deg,#e0e7ff,#f3f4f6);padding:2em 1.5em;border-radius:1.5em;box-shadow:0 10px 40px #2563eb22;display:flex;flex-direction:column;align-items:center;">
+              <div class="servicio-icon" style="font-size:2.5rem;margin-bottom:0.7em;">🔒</div>
+              <h3 style="font-size:1.25rem;font-weight:600;margin-bottom:0.5em;">Seguridad</h3>
+              <p style="text-align:center;color:#222;">Implementación de mejores prácticas.</p>
+            </div>
+            <div class="service-card scale-in delay-6" style="background:linear-gradient(135deg,#e0e7ff,#f3f4f6);padding:2em 1.5em;border-radius:1.5em;box-shadow:0 10px 40px #2563eb22;display:flex;flex-direction:column;align-items:center;">
+              <div class="servicio-icon" style="font-size:2.5rem;margin-bottom:0.7em;">⚡</div>
+              <h3 style="font-size:1.25rem;font-weight:600;margin-bottom:0.5em;">Optimización</h3>
+              <p style="text-align:center;color:#222;">Rendimiento y escalabilidad.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== SECCIÓN HABILIDADES ========== -->
+      <section id="habilidades" class="seccion-habilidades">
+        <div class="container-habilidades">
+          <h2 class="gradient-text" style="text-align:center;font-size:2.3rem;font-weight:800;margin-bottom:1.5em;">Habilidades</h2>
+          <div class="habilidades-circulos" style="display:flex;justify-content:center;gap:3em;flex-wrap:wrap;max-width:900px;margin:0 auto;">
+            <div class="habilidad-circulo" style="display:flex;flex-direction:column;align-items:center;">
+              <div class="progress-circle" data-percentage="95" style="--color:#ffe600;--bgcolor:#222;position:relative;">
+                <span class="progress-text" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:1.5rem;font-weight:700;color:#111;">95%</span>
+              </div>
+              <div class="habilidad-nombre" style="margin-top:0.7em;text-align:center;font-weight:600;">JavaScript</div>
+            </div>
+            <div class="habilidad-circulo" style="display:flex;flex-direction:column;align-items:center;">
+              <div class="progress-circle" data-percentage="90" style="--color:#38bdf8;--bgcolor:#222;position:relative;">
+                <span class="progress-text" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:1.5rem;font-weight:700;color:#111;">90%</span>
+              </div>
+              <div class="habilidad-nombre" style="margin-top:0.7em;text-align:center;font-weight:600;">React</div>
+            </div>
+            <div class="habilidad-circulo" style="display:flex;flex-direction:column;align-items:center;">
+              <div class="progress-circle" data-percentage="88" style="--color:#3b82f6;--bgcolor:#222;position:relative;">
+                <span class="progress-text" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:1.5rem;font-weight:700;color:#111;">88%</span>
+              </div>
+              <div class="habilidad-nombre" style="margin-top:0.7em;text-align:center;font-weight:600;">Python</div>
+            </div>
+            <div class="habilidad-circulo" style="display:flex;flex-direction:column;align-items:center;">
+              <div class="progress-circle" data-percentage="92" style="--color:#22c55e;--bgcolor:#222;position:relative;">
+                <span class="progress-text" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:1.5rem;font-weight:700;color:#111;">92%</span>
+              </div>
+              <div class="habilidad-nombre" style="margin-top:0.7em;text-align:center;font-weight:600;">Node.js</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== SECCIÓN PROYECTOS ========== -->
+      <section id="proyectos" class="seccion-proyectos">
+        <div class="container-proyectos">
+          <h2 class="gradient-text" style="text-align:center;font-size:2.1rem;font-weight:700;margin-bottom:1.2em;">Proyectos Destacados</h2>
+          <div class="proyectos-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2em;max-width:1100px;margin:0 auto;">
+            <div class="project-card scale-in delay-1" style="background:#fff;border-radius:1.5em;box-shadow:0 8px 32px #e73c7e22;padding:2em 1.5em;display:flex;flex-direction:column;align-items:flex-start;">
+              <h3 style="font-size:1.2rem;font-weight:700;margin-bottom:0.5em;">Sistema de Gestión Empresarial</h3>
+              <p style="color:#222;margin-bottom:0.7em;">Aplicación web para gestión de inventarios, ventas y clientes.</p>
+              <div class="project-tags" style="display:flex;gap:0.5em;flex-wrap:wrap;">
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">React</span>
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">Node.js</span>
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">PostgreSQL</span>
+              </div>
+            </div>
+            <div class="project-card scale-in delay-2" style="background:#fff;border-radius:1.5em;box-shadow:0 8px 32px #e73c7e22;padding:2em 1.5em;display:flex;flex-direction:column;align-items:flex-start;">
+              <h3 style="font-size:1.2rem;font-weight:700;margin-bottom:0.5em;">App de Análisis de Datos</h3>
+              <p style="color:#222;margin-bottom:0.7em;">Herramienta de visualización y análisis de datos en tiempo real.</p>
+              <div class="project-tags" style="display:flex;gap:0.5em;flex-wrap:wrap;">
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">Python</span>
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">Pandas</span>
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">Flask</span>
+              </div>
+            </div>
+            <div class="project-card scale-in delay-3" style="background:#fff;border-radius:1.5em;box-shadow:0 8px 32px #e73c7e22;padding:2em 1.5em;display:flex;flex-direction:column;align-items:flex-start;">
+              <h3 style="font-size:1.2rem;font-weight:700;margin-bottom:0.5em;">API RESTful E-commerce</h3>
+              <p style="color:#222;margin-bottom:0.7em;">Backend escalable para plataforma de comercio electrónico.</p>
+              <div class="project-tags" style="display:flex;gap:0.5em;flex-wrap:wrap;">
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">Java</span>
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">Spring Boot</span>
+                <span style="background:#e0e7ff;color:#2563eb;padding:0.3em 0.8em;border-radius:1em;font-size:0.95rem;font-weight:600;">MongoDB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== SECCIÓN CONTACTO ========== -->
+      <section id="contacto" class="seccion-contacto">
+        <div class="container-contacto" style="max-width:600px;margin:0 auto;">
+          <div class="contacto-dinamico-card glass-effect" style="background:#fff;box-shadow:0 8px 32px #2563eb22;padding:2.5em 2em;border-radius:2em;text-align:center;">
+            <h2 class="contacto-dinamico-titulo" style="font-size:2rem;font-weight:700;margin-bottom:1em;color:#e73c7e;">¿Listo para crear algo increíble?</h2>
+            <p class="contacto-dinamico-desc" style="font-size:1.15rem;color:#2563eb;margin-bottom:2em;">Estoy disponible para nuevos proyectos y oportunidades.<br>¡Conversemos y hagamos realidad tus ideas!</p>
+            <a href="https://wa.me/51901790281" target="_blank" style="display:inline-block;background:linear-gradient(135deg,#25d366,#128c7e);color:#fff;font-weight:700;font-size:1.1rem;padding:0.8em 2.2em;border-radius:2em;box-shadow:0 4px 16px #25d36644;text-decoration:none;transition:all 0.3s;">Contactar por WhatsApp</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= PIE DE PÁGINA ================= -->
+    <footer class="footer glass-effect">
+      <div class="container">
+        <p>© 2025 - Yaneth Liz Martínez Suárez | Computación e Informática</p>
+      </div>
+    </footer>
+
+    <!-- ========== SCRIPTS DINÁMICOS ========== -->
+    <script>
+      // Animación de fade-in para las secciones
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.fade-in').forEach(function(card, i) {
+          card.style.opacity = 0;
+          card.style.transform = 'translateY(30px)';
+          setTimeout(() => {
+            card.style.transition = 'opacity 0.7s, transform 0.7s';
+            card.style.opacity = 1;
+            card.style.transform = 'translateY(0)';
+          }, 200 + i * 200);
+        });
+        // Animación de círculos de habilidades
+        document.querySelectorAll('.progress-circle').forEach(function(circle) {
+          const percent = parseInt(circle.getAttribute('data-percentage'), 10);
+          const color = circle.style.getPropertyValue('--color') || '#2563eb';
+          const bgcolor = circle.style.getPropertyValue('--bgcolor') || '#222';
+          const size = 120;
+          const stroke = 10;
+          const radius = (size - stroke) / 2;
+          const circumference = 2 * Math.PI * radius;
+          const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+          svg.setAttribute('width', size);
+          svg.setAttribute('height', size);
+          svg.innerHTML = `
+            <circle cx="${size/2}" cy="${size/2}" r="${radius}" stroke="${bgcolor}" stroke-width="${stroke}" fill="none" />
+            <circle cx="${size/2}" cy="${size/2}" r="${radius}" stroke="${color}" stroke-width="${stroke}" fill="none" stroke-dasharray="${circumference}" stroke-dashoffset="${circumference * (1 - percent/100)}" stroke-linecap="round" style="transition:stroke-dashoffset 1.2s;" />
+          `;
+          circle.prepend(svg);
+        });
+        // Mensaje de éxito en el formulario
+        const form = document.getElementById('form-contacto');
+        const mensaje = document.getElementById('mensaje-exito');
+        if(form) {
+          form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            mensaje.style.display = 'block';
+            setTimeout(() => { mensaje.style.display = 'none'; }, 3000);
+            form.reset();
+          });
+        }
+      });
+    </script>
+  </body>
+  </html>
